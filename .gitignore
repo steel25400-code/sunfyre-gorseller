@@ -1,0 +1,16 @@
+# Bu repo herkese açık: yalnızca ürün görselleri yüklenir.
+# Görsel olmayan her şey varsayılan olarak engellenir.
+*
+!*/
+!.gitignore
+!README.md
+!urunler/**/*.jpg
+!urunler/**/*.jpeg
+!urunler/**/*.png
+!urunler/**/*.webp
+
+# Görsel uzantılı olsa bile istenmeyenler
+.DS_Store
+Thumbs.db
+*_orijinal.*
+*_original.*
